@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.cnt10 {
+  background-color: #2B2E4A;
+  color: #fff;
+  font-family: "Raleway";
+  padding: 30px 60px;
+}
+    
+/* div {
+    display: flex;
+    margin: 20px;
+} */
+label {
+    flex: 1;
+    font-family: "Oswald",sans-serif;
+ }
+input {
+    flex: 3;
+    padding: 10px;
+     border-radius: 4px;
+     border: none;
+}
+button {
+    background-color: #ff4560;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 13px;
+    color: #fff;
+    margin: 20px;
+    width: 200px;
+    transform: translate(300%);
+}
+h2{
+    position: absolute;
+    color: #fff;
+}
+legend{
+    font-family: "Oswald",sans-serif;
+    font-size: 80px;
+}
+  

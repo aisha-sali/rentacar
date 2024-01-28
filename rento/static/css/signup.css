@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/BG1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+
+}
+.form{
+    margin-left:375px;
+    margin-top: 80px;
+    width : 600px;
+    height : 380px;
+    background : linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    /* position : absolute; */
+    /* top: 70px; */
+    /* left : 300px; */
+    border-radius : 10px;
+    padding-top: 20px;
+    
+    /* padding-left: 150px; */
+    /* justify-content: center; */
+    
+}
+.fields{
+    /* margin-left: 175px; */
+    /* border: 3px solid green; */
+    text-align: center;
+    
+    
+}
+.form h2{
+    width : 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color : #ff7200;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding :8px;
+
+}
+.in{
+    width : 240px;
+    height : 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left : none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    display : flex;
+    flex-direction: column;
+    
+
+}
+
+.sub{
+    /* border: 3px solid green; */
+    margin-top: 20px;
+    width : 150px;
+    height: 50px;
+    border-radius: 15px;
+    background : #ff7200;
+    font-size: 16px;
+}
+
+
+.form input:focus{
+    outline : none;
+
+}
+::placeholder{
+    color : white;
+    font-family : Arial;
+}
+
+/* .btnn{
+    width : 240px;
+    height : 50px;
+    background: #ff7200;
+    border : none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor : pointer;
+    color : white;
+    transition : 0.4s ease;
+
+} */
+
+.btnn:hover {
+    background : white;
+    color : #ff7200;
+}
+
+/* .btnn a{
+    text-decoration: none;
+    color : black;
+    font-weight: bold;
+
+} */
+.fields .link{
+    font-family: Arial;
+    font-size: 14px;
+    padding-top: 20px;
+    /* margin-left: 30px; */
+    color : white;
+    text-align: center;
+    /* border : 3px solid green; */
+    /* display : flex; */
+}
+
+.link a{
+    text-decoration: none;
+    color : #ff7200;
+}
+.inside{
+    /* border: 3px solid green; */
+    padding-left: 175px;
+    
+}

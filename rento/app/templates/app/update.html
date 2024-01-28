@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UPdate page</title>
+    <link rel="stylesheet" href="{% static '/css/signup.css' %}">
+</head>
+<body>
+    <div class="main">
+        
+        <div class="form">
+            <form method="POST"  action="{% url 'update' id %}">
+                {% csrf_token %}
+                <div class="fields">
+                    <div class="inside">
+                    <h2>Edit Your Profile</h2>
+                    <input  class="in" type="text" name="username" placeholder="Enter Username" value="{{form.username.value}}">                       
+                     <input  class="in" type="email" name="email" placeholder="Enter Email " value="{{form.email.value}}">                       
+                                      
+                    <input style="margin-right:180px;margin-bottom:30px;"  class="sub" type="submit" value="UPDATE" >
+                    {% for msg in messages %}
+                    <h4 style="color:white;">{{msg}}</h4>
+                    {% endfor %}
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>
+{% comment %} <!-- <h3>Signup</h3>
+<form method="POST" action="">
+    {% csrf_token %}
+    {{form.username.label}}
+    {{form.username}}
+
+    {{form.email.label}}
+    {{form.email}}
+
+    {{form.password1.label}}
+    {{form.password1}}
+
+    {{form.password2.label}}
+    {{form.password2}}
+
+    <input type="Submit" name="Create User">
+</form> --> {% endcomment %}
